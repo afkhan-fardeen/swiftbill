@@ -28,7 +28,7 @@ interface Invoice {
   date: string;
   dueDate: string;
   total: number;
-  status: 'draft' | 'sent' | 'paid' | 'overdue' | 'cancelled';
+  status: 'draft' | 'sent' | 'paid' | 'overdue' | 'cancelled' | 'pending';
 }
 
 interface Client {

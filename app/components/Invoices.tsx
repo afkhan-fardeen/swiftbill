@@ -50,7 +50,7 @@ interface Invoice {
   discountValue: number;
   discountAmount: number;
   total: number;
-  status: 'draft' | 'sent' | 'paid' | 'overdue' | 'cancelled';
+  status: 'draft' | 'sent' | 'paid' | 'overdue' | 'cancelled' | 'pending';
   notes: string;
   paymentInstructions: string;
   currency: string;
